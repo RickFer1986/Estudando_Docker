@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ambientephp:
+    image: ambientephp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
